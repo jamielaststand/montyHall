@@ -1,0 +1,72 @@
+.container {
+	margin: auto;
+	width: 1000px;
+	height: 565px;
+	border: 3px solid #000;
+	border-radius: 10px;
+	background-image: url("background.png");
+}
+
+.results {
+	position: relative;
+	width: 277px;
+	height: 146px;
+	top: 104px;
+	left: 369px;
+}
+
+.btn-lang {
+	position: relative;
+	cursor: pointer;
+}
+
+.php {
+	width: 70px;
+	height: 27px;
+	top: 331px;
+	left: 424px;
+}
+
+.js {
+	width: 109px;
+	height: 27px;
+	top: 297px;
+	left: 506px;
+}
+
+.its {
+	position: relative;
+	width: 82px;
+	height: 17px;
+	top: 249px;
+	left: 528px;
+}
+
+.results-label {
+	font-family:Arial, Helvetica, sans-serif;
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: #e87006;
+}
+
+table {
+	width: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #e87006;
+	font-size:12px;
+	background: #000;
+	margin:5px;
+	border:#000 1px solid;
+}
+
+table tr td {
+	padding:5px;
+	background: #000;
+	color: #e87006;
+	border:none;
+}
+table tr.even td{
+	background: #000;
+}

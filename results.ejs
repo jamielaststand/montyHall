@@ -1,0 +1,27 @@
+<div class="results-label">Results</div>
+<table class="results-table">
+	<tr>
+		<th></th>
+		<th>Wins</th>
+		<th>Percentage</th>
+		<th>Prize Money</th>
+	</tr>
+	<tr>
+		<td>Stay</td>
+		<td><%= stayWins %></td>
+		<td><%= stayPercentage %>%</td>
+		<td>$<%= ((stayWins*20000)+(switchWins*20)) %></td>
+	</tr>
+	<tr>
+		<td>Switch</td>
+		<td><%= switchWins %></td>
+		<td><%= switchPercentage %>%</td>
+		<td>$<%= ((switchWins*20000)+(stayWins*20)) %></td>
+	</tr>
+	<tr>
+		<td>Cash Out</td>
+		<td><%= cashOutWins %></td>
+		<td><%= cashOutPercentage %>%</td>
+		<td>$<%= (cashOutWins*1000) %></td>
+	</tr>
+</table>
